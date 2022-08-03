@@ -1,5 +1,3 @@
-import cartItem from "./CartItem";
-
 const Reducer = ( state, action ) => {
     if (action.type === 'CLEAR_CART'){
         return {...state, cart: []}
